@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{5F2883D2-371A-49EB-BDE7-BA6BA7B344DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{19AD0BCD-EC06-40CC-B5C9-5A873F3A180D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE061534-2F67-49DB-8155-B7C05A48BF4E} = {19AD0BCD-EC06-40CC-B5C9-5A873F3A180D}
+		{AC1E5894-F0D2-4451-BC1A-BC0D1CE76F3C} = {19AD0BCD-EC06-40CC-B5C9-5A873F3A180D}
+		{5F2883D2-371A-49EB-BDE7-BA6BA7B344DE} = {19AD0BCD-EC06-40CC-B5C9-5A873F3A180D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BD32627-86A1-40C1-96C5-95A2FD3C65FD}
